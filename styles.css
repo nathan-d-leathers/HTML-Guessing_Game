@@ -1,5 +1,5 @@
 /* styles.css */
-body {
+/* body {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 300;
   text-align: center;
@@ -7,5 +7,47 @@ body {
 
 h1 {
   font-weight: 400
+} */
+
+.some-page-wrapper {
+  display: flex;
+  margin: 5px;
+  /* background-color: red; */
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.btn {
+  margin: 30px;
+}
+
+.row-grid + .row-grid {
+  margin-top: 15px;
+}
+
+/* .orange-column {
+  background-color: orange;
+  height: 100px;
+}
+
+.blue-column {
+  background-color: blue;
+  height: 100px;
+}
+
+.green-column {
+  background-color: green;
+  height: 100px;
+} */
